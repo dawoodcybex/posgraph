@@ -9,10 +9,13 @@ void main() async {
   await Firebase.initializeApp(
     // Replace with actual values
     options: FirebaseOptions(
-      apiKey: "AIzaSyDi4AUmVGmwAJv-f0_2QOtBvR8Ly21T34M",
-      appId: "1:802793673464:android:e968c33fe097a26d24e10d",
-      messagingSenderId: "802793673464",
-      projectId: "medical-appointment-d443a",
+     apiKey: "AIzaSyD0YGLfIRppAQj4Kk-mP54QGf6sVUO6vH0",
+        authDomain: "flutter-8c445.firebaseapp.com",
+        projectId: "flutter-8c445",
+        storageBucket: "flutter-8c445.firebasestorage.app",
+        messagingSenderId: "607271881694",
+        appId: "1:607271881694:web:5adc2ddc4513d88ebaeb4f",
+        measurementId: "G-KVB2XRPQL2"
     ),
   );
 
@@ -24,7 +27,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false, // Hides the debug banner
-      title: 'Organic App',
+      title: 'pos App',
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
